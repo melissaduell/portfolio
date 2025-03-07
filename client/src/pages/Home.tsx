@@ -1,4 +1,5 @@
 import About from "@/components/sections/About";
+import Blog from "@/components/sections/Blog";
 import Contact from "@/components/sections/Contact";
 import Education from "@/components/sections/Education";
 import Experience from "@/components/sections/Experience";
@@ -18,6 +19,7 @@ export default function Home() {
         <Skills />
         <Education />
         <Projects />
+        <Blog />
         <Contact />
       </main>
     </div>
