@@ -26,19 +26,19 @@ export default function About() {
               className="prose prose-lg max-w-none"
             >
               <p className="mb-4">
-                I'm a Full Stack Developer with over 5 years of experience in building web applications.
-                My journey in tech started with a deep curiosity about how things work on the internet,
-                which led me to pursue a career in web development.
+                I am a Senior Software Engineer with extensive experience in full-stack development 
+                and cloud architecture. Throughout my career, I've focused on building scalable, 
+                enterprise-level applications and leading development teams to success.
               </p>
               <p className="mb-4">
-                I specialize in creating responsive, user-friendly applications using modern
-                technologies. My approach combines technical expertise with a keen eye for design,
-                ensuring that the end product is both functional and aesthetically pleasing.
+                My expertise spans across modern web technologies, cloud platforms, and DevOps practices. 
+                I'm particularly passionate about creating efficient, maintainable solutions that solve 
+                real business problems.
               </p>
               <p>
-                When I'm not coding, you can find me contributing to open-source projects, writing
-                technical articles, or exploring new technologies to stay at the cutting edge of web
-                development.
+                I thrive in collaborative environments where I can contribute both technical expertise 
+                and leadership skills to drive projects forward. I'm always eager to learn new 
+                technologies and share knowledge with my team.
               </p>
             </motion.div>
           </CardContent>
