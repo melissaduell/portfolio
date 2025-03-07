@@ -12,10 +12,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
           >
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
-              Hi, I'm{" "}
-              <span className="bg-gradient-to-r from-primary to-primary/60 text-transparent bg-clip-text">
-                Melissa Berlin (Duell)
-              </span>
+              Hi, I'm <span className="bg-gradient-to-r from-primary to-primary/60 text-transparent bg-clip-text">Melissa Berlin (Duell)</span>
             </h1>
             <p className="text-xl md:text-2xl text-foreground/80 mb-8">
               Software Engineer with expertise in web development and innovative solutions
