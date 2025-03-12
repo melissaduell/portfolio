@@ -32,7 +32,7 @@ export default function Hero() {
               </h1>
             </div>
             <p className="text-xl md:text-2xl text-foreground/80 mb-8 mt-4">
-              Software Engineer with expertise in web development and innovative solutions
+            Technical expert with cross-domain experience applying data, analytics, and AI to solve real world problems
             </p>
             <div className="space-x-4">
               <Button asChild>

@@ -26,19 +26,15 @@ export default function About() {
               className="prose prose-lg max-w-none"
             >
               <p className="mb-4">
-                I am a Senior Software Engineer with extensive experience in full-stack development 
-                and cloud architecture. Throughout my career, I've focused on building scalable, 
-                enterprise-level applications and leading development teams to success.
+                Experienced in the federal and academic sectors, I have a strong background in data analytics and applied AI. My experience ranges from federal HR, international affairs, and
+                transportation planning.
               </p>
               <p className="mb-4">
-                My expertise spans across modern web technologies, cloud platforms, and DevOps practices. 
-                I'm particularly passionate about creating efficient, maintainable solutions that solve 
-                real business problems.
+                My expertise spans from the strategic - data informed policy and analysis - to the operational - managing products and projects, applying AI, and buliding data products from the ground up.
               </p>
               <p>
-                I thrive in collaborative environments where I can contribute both technical expertise 
-                and leadership skills to drive projects forward. I'm always eager to learn new 
-                technologies and share knowledge with my team.
+                I thrive in on building relationships to solve real world problems, breaking down complex issues into actional next steps, and communicating technical information clearly to enable decision making. I'm always eager to learn new technologies and share
+                knowledge with my team.
               </p>
             </motion.div>
           </CardContent>

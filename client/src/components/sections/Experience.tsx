@@ -1,31 +1,47 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Building2, Code2, Terminal } from "lucide-react";
+import { Brain, Rocket, Microscope, LineChart, Globe } from "lucide-react";
 
 const experiences = [
   {
-    company: "Google",
-    role: "Senior Frontend Developer",
-    period: "2021 - Present",
+    company: "U.S. Office of Personal Management",
+    role: "AI/ML Product Incubation Lead",
+    period: "Jan 2024 - Mar 2025",
     description:
-      "Lead development of key features for Google Cloud Platform's web console. Improved performance metrics by 40%.",
-    icon: Terminal,
+      "Led fully remote multi-disciplinary team of 16 for experimenting with applied AI in federal HR. Collaborated with domain experts to prioritize AI use cases, refine requirements, and develop experimental solutions.",
+    icon: Rocket,
   },
   {
-    company: "Microsoft",
-    role: "Full Stack Developer",
-    period: "2019 - 2021",
+    company: "U.S. Office of Personal Management",
+    role: "Data Product Team Manager",
+    period: "2023 - 2024",
     description:
-      "Developed and maintained enterprise-level applications using React and .NET Core. Led a team of 5 developers.",
-    icon: Code2,
+      "Managed customer data requests for complex federal hiring datasets. Established processes for responding to requests for data and reports by clarifying objectives and implementing agile workflow methods.",
+    icon: Brain,
   },
   {
-    company: "Amazon",
-    role: "Software Developer",
-    period: "2017 - 2019",
+    company: "U.S. Office of Personal Management",
+    role: "AI/ML Data Product Owner",
+    period: "2021 - 2022",
     description:
-      "Built microservices and frontend components for Amazon's retail platform. Implemented CI/CD pipelines.",
-    icon: Building2,
+      "Provided matrixed data support to govt hiring IT systems. Built expertise in the federal hiring process to support data-driven insights and machine learning applications.",
+    icon: LineChart,
+  },
+  {
+    company: "U.S. Department of State",
+    role: "Conflict Data Analyst",
+    period: "2016 - 2021",
+    description:
+      "Led Instability Monitoring and Analysis Platform (IMAP), coordinating analytics for conflict risk assessment; built suite of interactive dashboards for real-time conflict monitoring..",
+    icon: Globe,
+  },
+  {
+    company: "Research Centre for Integrated Transport Innovation",
+    role: "Postdoctoral Research Associate",
+    period: "2015 - 2016",
+    description:
+      "Led technical research on transport planning models, managing multi-member teams and delivering nine journal/conference publications plus reports for city sponsored projects.",
+    icon: Microscope,
   },
 ];
 
