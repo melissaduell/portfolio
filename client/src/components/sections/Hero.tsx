@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
 
@@ -45,7 +44,7 @@ export default function Hero() {
           >
             <div className="w-full h-full">
               <img 
-                src="../attached_assets/IMG_7694_2.PNG" 
+                src="/attached_assets/IMG_7694_2.PNG" 
                 alt="Melissa Duell Berlin" 
                 className="w-full h-full"
               />
