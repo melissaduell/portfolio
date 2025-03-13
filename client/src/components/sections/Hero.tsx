@@ -4,18 +4,10 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center pt-16 bg-background overflow-hidden">
-      {/* Background Image */}
-      <div 
-        className="absolute inset-0 z-0"
-        style={{
-          backgroundImage: "url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')",
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-        }}
-      >
-        {/* Overlay gradient for better text readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/60" />
+      {/* Simple background */}
+      <div className="absolute inset-0 z-0 bg-background">
+        {/* Light gradient for visual interest */}
+        <div className="absolute inset-0 bg-gradient-to-br from-background to-background/90" />
       </div>
 
       <div className="container px-4 mx-auto relative z-10">
@@ -50,8 +42,12 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="relative aspect-square max-w-md mx-auto"
           >
-            <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-primary/40 flex items-center justify-center backdrop-blur-sm">
-              <span className="text-6xl">👩‍💻</span>
+            <div className="w-full h-full rounded-full bg-gradient-to-br from-primary/20 to-primary/40 p-2 overflow-hidden">
+              <img 
+                src="/attached_assets/IMG_7694 2.PNG" 
+                alt="Melissa Duell Berlin" 
+                className="w-full h-full object-cover rounded-full"
+              />
             </div>
           </motion.div>
         </div>
