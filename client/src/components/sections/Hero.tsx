@@ -43,11 +43,11 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="relative aspect-square max-w-md mx-auto"
           >
-            <div className="w-full h-full rounded-full overflow-hidden">
+            <div className="w-full h-full">
               <img 
-                src="/attached_assets/IMG_7694 2.PNG" 
+                src="../attached_assets/IMG_7694_2.PNG" 
                 alt="Melissa Duell Berlin" 
-                className="w-full h-full object-cover"
+                className="w-full h-full"
               />
             </div>
           </motion.div>
