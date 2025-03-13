@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="flex flex-wrap items-baseline gap-x-2">
               <h1 className="text-4xl md:text-6xl font-bold">Hi, I'm</h1>
               <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary to-primary/60 text-transparent bg-clip-text whitespace-nowrap">
-                Melissa Berlin (Duell)
+                Melissa Duell Berlin
               </h1>
             </div>
             <p className="text-xl md:text-2xl text-foreground/80 mb-8 mt-4">
