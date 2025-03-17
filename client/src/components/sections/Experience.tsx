@@ -4,27 +4,35 @@ import { Brain, Rocket, Microscope, LineChart, Globe } from "lucide-react";
 
 const experiences = [
   {
-    company: "U.S. Office of Personal Management",
-    role: "AI/ML Product Incubation Lead",
-    period: "Jan 2024 - Mar 2025",
+    company: "Mobility Thinking America",
+    role: "President",
+    period: "Mar 2025 - Present",
     description:
-      "Led fully remote multi-disciplinary team of 16 for experimenting with applied AI in federal HR. Collaborated with domain experts to prioritize AI use cases, refine requirements, and develop experimental solutions.",
-    icon: Rocket,
+      "Solutions in transport planning, applied AI, and  consulting services for better transport planning.",
+    icon: Brain,
   },
   {
-    company: "U.S. Office of Personal Management",
-    role: "Data Product Team Manager",
-    period: "2023 - 2024",
+    company: "Data Science Institute, Brown University",
+    role: "Adjunct Faculty",
+    period: "Mar 2025 - Present",
     description:
-      "Managed customer data requests for complex federal hiring datasets. Established processes for responding to requests for data and reports by clarifying objectives and implementing agile workflow methods.",
+      "Developing and facilitating novel course highlighting role of data and machine learning in evidence driven policy making for a new online data science masters program.",
     icon: Brain,
   },
   {
     company: "U.S. Office of Personal Management",
-    role: "AI/ML Data Product Owner",
-    period: "2021 - 2022",
+    role: "AI/ML Product Incubation Manager",
+    period: "Jan 2024 - Mar 2025",
     description:
-      "Provided matrixed data support to govt hiring IT systems. Built expertise in the federal hiring process to support data-driven insights and machine learning applications.",
+      "Led and managed team in experimenting with applied AI in federal HR and successfully developing cutting edge AI prototypes.",
+    icon: Rocket,
+  },
+  {
+    company: "U.S. Office of Personal Management",
+    role: "Data Product Owner and Manager",
+    period: "2021 - 2024",
+    description:
+      "Managed customer data requests for complex federal hiring datasets using Agile and Scrum style workflows. Also led the charge to experiment with AI/ML use cases.",
     icon: LineChart,
   },
   {
@@ -32,7 +40,7 @@ const experiences = [
     role: "Conflict Data Analyst",
     period: "2016 - 2021",
     description:
-      "Led Instability Monitoring and Analysis Platform (IMAP), coordinating analytics for conflict risk assessment; built suite of interactive dashboards for real-time conflict monitoring..",
+       "Analytics and analysis for conflict risk assessment via data products aimed at policy-makers.",
     icon: Globe,
   },
   {
@@ -40,7 +48,7 @@ const experiences = [
     role: "Postdoctoral Research Associate",
     period: "2015 - 2016",
     description:
-      "Led technical research on transport planning models, managing multi-member teams and delivering nine journal/conference publications plus reports for city sponsored projects.",
+      "Led technical research on transport planning models, applying research to real-world networks for city planning.",
     icon: Microscope,
   },
 ];
