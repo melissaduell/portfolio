@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
-import { Brain, Rocket, Microscope, LineChart, Globe } from "lucide-react";
+import { Brain, Rocket, Microscope, LineChart, Globe, Map } from "lucide-react";
 
 const experiences = [
   {
@@ -8,23 +8,23 @@ const experiences = [
     role: "President",
     period: "Mar 2025 - Present",
     description:
-      "Solutions in transport planning, applied AI, and  consulting services for better transport planning.",
-    icon: Brain,
+      "A new business entity currently in development offering solutions in planning, applied AI, and consulting  for better transport services and organization effectiveness.",
+    icon: Map,
   },
   {
     company: "Data Science Institute, Brown University",
     role: "Adjunct Faculty",
-    period: "Mar 2025 - Present",
+    period: "April 2025 - Present",
     description:
       "Developing and facilitating novel course highlighting role of data and machine learning in evidence driven policy making for a new online data science masters program.",
     icon: Brain,
   },
   {
     company: "U.S. Office of Personal Management",
-    role: "AI/ML Product Incubation Manager",
-    period: "Jan 2024 - Mar 2025",
+    role: "AI/ML Product Incubation Director",
+    period: "Jan 2024 - Mar 2025 (admin leave through Sept)",
     description:
-      "Led and managed team in experimenting with applied AI in federal HR and successfully developing cutting edge AI prototypes.",
+      "Led govt team experimenting with applied AI in HR and successfully developed multiple cutting edge AI prototypes.",
     icon: Rocket,
   },
   {
@@ -37,7 +37,7 @@ const experiences = [
   },
   {
     company: "U.S. Department of State",
-    role: "Conflict Data Analyst",
+    role: "Conflict Data Analyst and Team Lead",
     period: "2016 - 2021",
     description:
        "Analytics and analysis for conflict risk assessment via data products aimed at policy-makers.",
@@ -45,7 +45,7 @@ const experiences = [
   },
   {
     company: "Research Centre for Integrated Transport Innovation",
-    role: "Postdoctoral Research Associate",
+    role: "Postdoctoral Transport Research Associate",
     period: "2015 - 2016",
     description:
       "Led technical research on transport planning models, applying research to real-world networks for city planning.",

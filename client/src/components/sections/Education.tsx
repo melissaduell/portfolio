@@ -4,10 +4,17 @@ import { GraduationCap } from "lucide-react";
 
 const educationItems = [
   {
-    degree: "Bachelor's Degree in Computer Science",
-    institution: "Example University",
-    period: "2015 - 2019",
-    description: "Focused on software engineering and web development. Graduated with honors.",
+    degree: "Doctor of Philosophy in Transportation Engineering",
+    institution: "University of New South Wales",
+    period: "2011 - 2015",
+    description: "Developed novel transport planning models addressing uncertainty in travel demand.",
+  },
+
+  {
+    degree: "Bachelors in Civil Engineering and Plan II Honors",
+    institution: "University of Texas at Austin",
+    period: "2006 - 2011",
+    description: "Focused on transportation engineering and liberal arts honors. Graduated with honors.",
   },
   // Add more education items as needed
 ];

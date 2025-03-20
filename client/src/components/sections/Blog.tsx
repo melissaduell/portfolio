@@ -5,26 +5,13 @@ import { Calendar, Clock } from "lucide-react";
 
 const blogPosts = [
   {
-    title: "The Future of Web Development",
-    excerpt: "Exploring upcoming trends and technologies in web development for 2025 and beyond.",
-    date: "March 1, 2025",
+    title: "Unraveling Project and Product and People Management",
+    excerpt: "Coming Soon!",
+    date: "March 25, 2025",
     readTime: "5 min read",
     link: "#",
   },
-  {
-    title: "Best Practices for Modern React Applications",
-    excerpt: "A comprehensive guide to building scalable and maintainable React applications.",
-    date: "February 15, 2025",
-    readTime: "8 min read",
-    link: "#",
-  },
-  {
-    title: "Optimizing Performance in Web Applications",
-    excerpt: "Essential techniques and tools for improving web application performance.",
-    date: "January 30, 2025",
-    readTime: "6 min read",
-    link: "#",
-  },
+
 ];
 
 export default function Blog() {

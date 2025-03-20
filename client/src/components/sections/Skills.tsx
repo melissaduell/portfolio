@@ -3,29 +3,26 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 
 const skills = {
-  "Frontend Development": [
-    "React",
-    "TypeScript",
-    "Next.js",
-    "Tailwind CSS",
-    "HTML5",
-    "CSS3",
+  "Product Management": [
+    "Vision",
+    "Strategic planning",
+    "Roadmpping",
+    "Human centered design",
+    "Agile/Scrum methodology"
   ],
-  "Backend Development": [
-    "Node.js",
-    "Express",
-    "PostgreSQL",
-    "MongoDB",
-    "RESTful APIs",
-    "GraphQL",
+  "Applied AI": [
+    "Pain points analysis",
+    "Requirements gathering",
+    "Prototyping",
+    "User feedback",
+    "Feasibility assessment",
+    "AI tools"
   ],
   "Tools & Others": [
-    "Git",
+    "Python",
     "Docker",
-    "AWS",
-    "Jest",
     "CI/CD",
-    "Agile Methodologies",
+    "Data Visualization",
   ],
 };
 

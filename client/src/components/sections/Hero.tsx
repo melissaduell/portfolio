@@ -31,7 +31,7 @@ export default function Hero() {
                 <a href="#contact">Get in Touch</a>
               </Button>
               <Button variant="outline" asChild>
-                <a href="#projects">View Projects</a>
+                <a href="#about">Who I am</a>
               </Button>
             </div>
           </motion.div>

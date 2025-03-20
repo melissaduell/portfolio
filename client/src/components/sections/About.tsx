@@ -26,15 +26,16 @@ export default function About() {
               className="prose prose-lg max-w-none"
             >
               <p className="mb-4">
-                Experienced in the federal and academic sectors, I have a strong background in data analytics and applied AI. My experience ranges from federal HR, international affairs, and
+                I love solving real problems. I'm an experienced leader in the federal and academic sectors with an ever-growing background in applied AI and data analytics. My expertise spans domains including federal HR, international affairs, and
                 transportation planning.
               </p>
               <p className="mb-4">
-                My expertise spans from the strategic - data informed policy and analysis - to the operational - managing products and projects, applying AI, and buliding data products from the ground up.
+                My skills shine in end to end project delivery. I'm a big picture thinker - data informed policy,  research and discovery, strategic plans, risk assessment - but I'm also skilled within the operational side of the house, from managing products and projects to applying AI and developing solutions from the ground up.
               </p>
               <p>
-                I thrive in on building relationships to solve real world problems, breaking down complex issues into actional next steps, and communicating technical information clearly to enable decision making. I'm always eager to learn new technologies and share
-                knowledge with my team.
+                My approach builds on creating relationships to identify the highest priority real world problems, breaking down complex issues into actionable steps, and communicating technical information clearly to inform better decisions.  </p>
+               <p>
+                I thrive in cutting edge environments filled with uncertainty where no one really knows the best answer yet - but I'm here to help figure it out!
               </p>
             </motion.div>
           </CardContent>
