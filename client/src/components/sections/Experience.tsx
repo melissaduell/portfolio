@@ -10,7 +10,6 @@ const experiences = [
     description:
       "A new business entity currently in development offering solutions in planning, applied AI, and consulting  for better transport services and organization effectiveness.",
     icon: Map,
-    url: "https://mobilitythinking.com",
   },
   {
     company: "Data Science Institute, Brown University",
@@ -87,13 +86,7 @@ export default function Experience() {
                     <div>
                       <h3 className="text-xl font-semibold">{exp.role}</h3>
                       <p className="text-sm text-muted-foreground mb-2">
-                        {exp.url ? (
-                          <a href={exp.url} target="_blank" rel="noopener noreferrer" className="hover:text-primary">
-                            {exp.company}
-                          </a>
-                        ) : (
-                          exp.company
-                        )} | {exp.period}
+                        {exp.company} | {exp.period}
                       </p>
                       <p className="text-foreground/80">{exp.description}</p>
                     </div>
