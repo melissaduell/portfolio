@@ -5,7 +5,7 @@ import Education from "@/components/sections/Education";
 import Experience from "@/components/sections/Experience";
 import Hero from "@/components/sections/Hero";
 import Navigation from "@/components/layout/Navigation";
-import Projects from "@/components/sections/Projects";
+
 import Skills from "@/components/sections/Skills";
 
 export default function Home() {
@@ -18,7 +18,6 @@ export default function Home() {
         <Experience />
         <Skills />
         <Education />
-        <Projects />
         <Blog />
         <Contact />
       </main>
